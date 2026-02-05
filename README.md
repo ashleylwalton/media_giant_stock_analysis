@@ -12,30 +12,30 @@ The analysis includes exploratory data visualization, risk‑return evaluation, 
 
 
 ## Companies Analyzed
-- Disney (DIS)
-- Comcast (CMCSA)
-- Warner Bros Discovery (WBD)
-- Sony (SONY)
+- Disney (DIS): Parks, films, streaming, consumer products, IP
+- Comcast (CMCSA): Universal Studios, NBC, Peacock, film, parks
+- Warner Bros Discovery (WBD): HBO, Warner Bros, DC, Discovery, streaming
+- Sony (SONY): Sony Pictures, PlayStation, entertainment IP, international attractions
 
 
 ## Project Structure
-projects/
-    notebooks/
-        media_giant_stock_analysis.ipynb
-    outcomes/
-    README.md
-    requirements.txt
+- projects/
+    - notebooks/
+        - media_giant_stock_analysis.ipynb
+    - outputs/
+    - README.md
+    - requirements.txt
 
 
 ## Key Visuals
 ### Cumulative Returns
 Shows how a $1 investment in each company grew over time, highlighting long‑term performance differences
-![Cumulative Returns](outcomes/cumulative_returns.png)
+![Cumulative Returns](outputs/cumulative_returns.png)
 
 
 ### Risk vs. Return
 Compares annualized returns with annualized volatility to show which companies offer better risk‑adjusted performance.
-![Risk vs Return](outcomes/risk_vs_return.png)
+![Risk vs Return](outputs/risk_vs_return.png)
 
 
 ## Key Findings
